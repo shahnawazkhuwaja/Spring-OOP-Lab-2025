@@ -42,9 +42,7 @@ public:
 
     void displaySpecifications() const {
         cout << "Laptop Specifications:\n";
-        cout << "Brand: " << brand << "\nModel: " << model 
-             << "\nProcessor: " << processor << "\nRAM: " << ram << " GB"
-             << "\nStorage: " << storage << " GB\n";
+        cout << "Brand: " << brand << "\nModel: " << model << "\nProcessor: " << processor << "\nRAM: " << ram << " GB"<< "\nStorage: " << storage << " GB\n";
     }
 };
 
@@ -52,9 +50,9 @@ int main() {
     Laptop ShahnawazLaptop("Dell", "Precision 5520", "Intel i7", 16, 512);
     Laptop AliLaptop("HP", "elitebook 14", "AMD Ryzen 5", 8, 256);
 
-    cout << "Bilal's Laptop:\n";
+    cout << "Shahnawaz's Laptop:\n";
     ShahnawazLaptop.displaySpecifications();
-    cout << "\nAyesha's Laptop:\n";
+    cout << "\nAli's Laptop:\n";
     AliLaptop.displaySpecifications();
     ShahnawazLaptop.turnOn();
     ShahnawazLaptop.runProgram("MS Word");
