@@ -26,8 +26,8 @@ class Humidity {
     return HI;
     }
 int main() {
-    Temperature temp (37.0);
-    Humidity hum (64.0);
+    Temperature temp (32.0);
+    Humidity hum (70.0);
     float heatIndex = calculateHeatIndex (temp, hum);
     cout << "Heat Index is: " << heatIndex << "C" << endl;
 return 0;
